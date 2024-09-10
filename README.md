@@ -1,2 +1,0 @@
-# Aider-Company-Assets
- 

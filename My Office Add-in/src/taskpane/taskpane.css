@@ -16,16 +16,51 @@
      padding: 0;
  }
  
- .ms-welcome__header {
+ .welcome__header {
     padding: 20px;
-    padding-bottom: 30px;
-    padding-top: 100px;
+    padding-bottom: 10px;
+    padding-top: 15px;
     display: -webkit-flex;
     display: flex;
     -webkit-flex-direction: column;
     flex-direction: column;
     align-items: center;
  }
+
+ .bg-color-sand {
+    background-color: #E6E0D9;
+ }
+
+ .bg-color-aqua {
+    background-color: #55C2BF;
+ }
+
+ .bg-color-tempo {
+    background-color: #008EB3;
+ }
+
+ .bg-color-dyp-turkish {
+    background-color: #0F5B73;
+ }
+
+ .bg-color-iceblue {
+    background-color: #CFECEC;
+ }
+
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 10px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+}
 
  .ms-welcome__main {
     display: -webkit-flex;
